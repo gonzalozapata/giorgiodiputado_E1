@@ -18,7 +18,6 @@
 ================================================== */
 
 #slider {
-	width:100%;
 	height:400px;
 	background-color:#85BAE2;
 }
@@ -26,6 +25,12 @@
 #caja1, #caja2, #caja3, #caja4, #caja5, #caja6 {
 	height:200px;
 }
+
+.fondorojo { background-color:#E89AB2; }
+.fondoamarillo { background-color:#FCFF9B; }
+.fondoverde { background-color:#AEFFD6; }
+.fondoazul { background-color:#85BAD8; }
+.fondogris { background-color:#CCC; }
 
 /* #Page Styles
 ================================================== */
