@@ -17,6 +17,16 @@
 /* #Site Styles
 ================================================== */
 
+#slider {
+	width:100%;
+	height:400px;
+	background-color:#85BAE2;
+}
+
+#caja1, #caja2, #caja3, #caja4, #caja5, #caja6 {
+	height:200px;
+}
+
 /* #Page Styles
 ================================================== */
 
@@ -30,13 +40,28 @@
 	@media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+		
+		#slider {
+		height:300px;
+		background-color:#FCFF9B;
+		}
+
+		}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+		
+		#slider {
+		height:200px;
+		background-color:#E89AB2;
+		}
+
+		
+		}
 
 
 /* #Font-Face
