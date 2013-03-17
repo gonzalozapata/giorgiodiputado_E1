@@ -24,10 +24,11 @@
 
 #caja1, #caja2, #caja3, #caja4, #caja5, #caja6 {
 	height:auto;
-	text-align:center;
 }
 
-img.contenidofijo { width:100%; max-width:300px !important; }
+.contenidofijo { text-align:center !important; }
+
+img.estatica { width:100%; max-width:300px !important; }
 
 .fondorojo { background-color:#E89AB2; }
 .fondoamarillo { background-color:#FCFF9B; }
