@@ -23,8 +23,11 @@
 }
 
 #caja1, #caja2, #caja3, #caja4, #caja5, #caja6 {
-	height:200px;
+	height:auto;
+	text-align:center;
 }
+
+img.contenidofijo { width:100%; max-width:300px !important; }
 
 .fondorojo { background-color:#E89AB2; }
 .fondoamarillo { background-color:#FCFF9B; }
@@ -75,6 +78,8 @@
 		Just create a "fonts" folder at the root,
 		copy your FontName into code below and remove
 		comment brackets */
+		
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,700);
 
 /*	@font-face {
 	    font-family: 'FontName';
