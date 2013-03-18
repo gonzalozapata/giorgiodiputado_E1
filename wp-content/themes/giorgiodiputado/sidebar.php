@@ -1,3 +1,4 @@
+<div class="one-third column">
 <!-- Sidebar -->
 <aside id="sidebar">
 
@@ -13,3 +14,4 @@
 		
 </aside>
 <!-- /Sidebar -->
+</div>

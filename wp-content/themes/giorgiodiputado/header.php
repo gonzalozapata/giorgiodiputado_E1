@@ -11,9 +11,18 @@
 	<!-- Meta -->
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta name="description" content="<?php bloginfo('description'); ?>">
-	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico">
+
+	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/img/apple-touch-icon-114x114.png">
 		
 	<!-- CSS + jQuery + JavaScript -->
+    
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/skeleton/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/skeleton/layout.css">
+
+    
 	<?php wp_head(); ?>
 	<script>
 	conditionizr({
@@ -41,28 +50,19 @@
 </head>
 <body <?php body_class(); ?>>
 
-	<!-- Wrapper -->
-	<div class="wrapper">
 
-		<!-- Header -->
-		<header class="header">
-			
-				<!-- Logo -->
-				<div class="logo">
-					<a href="<?php echo home_url(); ?>">
-						<!-- SVG Logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-						<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo">
-					</a>
-				</div>
-				<!-- /Logo -->
-				
-				<!-- Nav -->
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+    
+         
+<div class="container">
+        <div class="two columns offset-by-one"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logoGJ.png" alt="Giorgio Jackson" width="140" height="47"></a></div>
+        <div class="two-thirds column add-bottom" id="menu">
 				<nav>
 					<?php html5blank_nav(); ?>
 				</nav>
-				<!-- /Nav -->
-				
-				<br class="clear">
-		
-		</header>
+        </div>
+
 		<!-- /Header -->

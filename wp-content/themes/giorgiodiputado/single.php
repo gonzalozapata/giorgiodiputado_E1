@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 	
+<div class="two-thirds column">
 	<!-- Section -->
 	<section>
 	
@@ -61,7 +62,8 @@
 	
 	</section>
 	<!-- /Section -->
-	
+    </div>
+    	
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

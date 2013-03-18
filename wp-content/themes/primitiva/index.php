@@ -7,10 +7,9 @@
 
 	<!-- Basic Page Needs
   ================================================== -->
-	<meta charset="utf-8">
-	<title>*GiorgioJackson.cl</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta charset="<?php bloginfo('charset'); ?>">
+	<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
+	<meta name="description" content="<?php bloginfo('description'); ?>">
 
 	<!-- Mobile Specific Metas
   ================================================== -->
@@ -18,9 +17,9 @@
 
 	<!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="skeleton.css">
-	<link rel="stylesheet" href="layout.css">
+	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/skeleton.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/layout.css">
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -32,6 +31,8 @@
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<?php wp_head(); ?>
 
 </head>
 <body>
