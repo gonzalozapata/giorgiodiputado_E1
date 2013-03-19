@@ -6,18 +6,40 @@
         Hola.</div>
         <div class="one-third column contenidofijo">
           <img src="<?php echo get_template_directory_uri(); ?>/img/footer.png" alt="Giorgio Jackson, diputado x Stgo Centro" style="margin:20px;"></div>
-        <div class="two columns">
-        Mapa (col 1)</div>
-        <div class="two columns">
-        Mapa (col 2))</div>
-        <div class="two columns">
-        Mapa (col 3)</div>
-        <div class="two columns">
-        Mapa (col 4)</div>
-        <div class="two columns">
-        Mapa (col 5)</div>
-        <div class="two columns">
-        Mapa (col 6)</div>
+        <div class="two columns" style="height:150px;">
+        &nbsp;</div>
+        <div class="two columns" style="height:150px;">
+          <h6 style="text-transform:uppercase;">Giorgio Diputado</h6>
+          <ul>
+            <li class="remove-bottom">Biografía</li>
+            <li class="remove-bottom">Equipo</li>
+            <li class="remove-bottom">Testimonios</li>
+            <li class="remove-bottom">Noticias</li>
+          </ul>
+          </div>
+        <div class="two columns" style="height:150px;">
+          <h6 style="text-transform:uppercase;">Programa</h6>
+          <ul>
+            <li class="remove-bottom">Diálogos ciudadanos</li>
+          </ul>
+        </div>
+        <div class="two columns" style="height:150px;">
+        <h6 style="text-transform:uppercase;">Transparencia </h6>
+        <ul>
+          <li class="remove-bottom">Declaración de patrimonio e impuestos</li>
+        </ul>
+        </div>
+        <div class="two columns" style="height:150px;">
+          <h6 style="text-transform:uppercase;">Participa</h6>
+          <ul>
+            <li class="remove-bottom">Actualiza tu domicilio</li>
+            <li class="remove-bottom">Preguntas frecuentes</li>
+            <li class="remove-bottom">Difunde</li>
+            <li class="remove-bottom">Quiero ser voluntario</li>
+          </ul>
+          </div>
+        <div class="two columns" style="height:150px;">
+        &nbsp;</div>
       </div>
 	</div><!-- container -->
 

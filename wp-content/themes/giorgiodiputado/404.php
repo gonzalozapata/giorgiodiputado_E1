@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- Section -->
-<section>
+<section class="two-thirds column">
 
 	<!-- Article -->
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

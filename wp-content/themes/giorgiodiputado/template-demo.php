@@ -3,7 +3,7 @@
 <?php get_header(); ?>
 	
 	<!-- Section -->
-	<section>
+	<section class="two-thirds column">
 	
 		<h1><?php the_title(); ?></h1>
 	

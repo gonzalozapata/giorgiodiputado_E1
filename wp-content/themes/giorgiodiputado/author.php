@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<!-- Section -->
-	<section>
+	<section class="two-thirds column">
 	
 	<?php if (have_posts()): the_post(); ?>
 	

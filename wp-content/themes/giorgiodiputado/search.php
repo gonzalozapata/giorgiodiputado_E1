@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 	
 	<!-- Section -->
-	<section>
+	<section class="two-thirds column">
 	
 		<h1><?php echo sprintf( __( '%s Search Results for ', 'html5blank' ), $wp_query->found_posts ); echo get_search_query(); ?></h1>
 		

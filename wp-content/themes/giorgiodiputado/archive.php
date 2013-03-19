@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 	
 	<!-- Section -->
-	<section>
+	<section class="two-thirds column">
 	
 		<h1><?php _e( 'Archives', 'html5blank' ); ?></h1>
 	

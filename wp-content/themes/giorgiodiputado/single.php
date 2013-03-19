@@ -1,8 +1,7 @@
 <?php get_header(); ?>
 	
-<div class="two-thirds column">
 	<!-- Section -->
-	<section>
+	<section class="two-thirds column">
 	
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 	
@@ -62,7 +61,6 @@
 	
 	</section>
 	<!-- /Section -->
-    </div>
     	
 <?php get_sidebar(); ?>
 
