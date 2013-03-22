@@ -2,10 +2,16 @@
 
     <div class="fondogris">
     	<div class="container">
-        <div class="two-thirds column">
-        Hola.</div>
+        <div class="two-thirds column" style="padding:30px 0;">
+        <h5 style="text-transform:uppercase;"><?php bloginfo('description'); ?></h5></div>
         <div class="one-third column contenidofijo">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/footer.png" alt="Giorgio Jackson, diputado x Stgo Centro" style="margin:20px;"></div>
+          <img src="<?php echo get_template_directory_uri(); ?>/img/footer.png" alt="Giorgio Jackson, diputado x Stgo Centro" style="margin:20px 0 5px 0;"><br /><img src="<?php echo get_template_directory_uri(); ?>/img/botonesderedes.png" alt="Giorgio Jackson, diputado x Stgo Centro" width="180" height="40" usemap="#RedesFooter" border="0">
+          <map name="RedesFooter" id="RedesFooter">
+            <area shape="circle" coords="54,20,16" href="http://www.facebook.com/giorgiodiputado" target="_blank" alt="Facebook" />
+            <area shape="circle" coords="90,20,16" href="http://twitter.com/equipojackson" target="_blank" alt="Twitter" />
+            <area shape="circle" coords="126,20,16" href="http://instagram.com/giorgiodiputado" target="_blank" alt="Instagram" />
+          </map>
+        </div>
         <div class="two columns" style="height:150px;">
         &nbsp;</div>
         <div class="two columns" style="height:150px;">
