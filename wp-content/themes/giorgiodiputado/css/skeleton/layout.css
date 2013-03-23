@@ -54,12 +54,13 @@ img.linkB { position:absolute; bottom:0px; right:10px; }
 /* Navegación
 ================================================== */
 
+.container nav { margin-top:10px; }
 .menu ul, .menu ul li { margin:0; }
 .menu ul {}
 .menu ul li { display:inline; float:left; position:relative; }
-.menu ul li a { display:inline-block; line-height: 40px; color:#222; text-transform:uppercase; padding:0 10px; }
+.menu ul li a { display:inline-block; line-height: 30px; color:#222; background-color:#FFF; text-transform:uppercase; padding:0 10px; }
 .menu ul li a:hover { background-color:#CCC; }
-.menu ul ul.children { position:absolute; z-index:999; min-width:200px; height:0px; overflow:hidden; }
+.menu ul ul.children { position:absolute; z-index:999; min-width:150px; height:0px; overflow:hidden; }
 .menu ul li:hover ul { height:auto; overflow:auto; }
 .menu ul ul li { float:none; display:list-item; }
 
