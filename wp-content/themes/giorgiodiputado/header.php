@@ -47,6 +47,28 @@
 	});
 	</script>
 	
+    
+    <!-- carrusel SOLO PARA HOME -->
+    <?php
+if ( is_home() ) {
+    // This is a homepage
+	?>
+    <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.carrusel').cycle({
+		fx: 'scrollHorz', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+		next:   '#sig', 
+    	prev:   '#ant',
+		timeout: 5000,  // milliseconds between slide transitions (0 to disable auto advance)
+	});
+});
+</script> <?php
+} else {
+    // This is not a homepage
+}
+?>
+    
 </head>
 <body <?php body_class(); ?>>
 

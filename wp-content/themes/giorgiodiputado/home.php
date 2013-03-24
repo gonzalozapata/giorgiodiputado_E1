@@ -1,7 +1,10 @@
 <?php get_header() ?>
 
-        <div class="twelve columns add-bottom" id="slider">
-        	Slider GJ
+        <div class="twelve columns add-bottom carrusel" id="slider">
+        	<div class="imgdecarrusel" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/slider_A.png);"></div>
+        	<div class="imgdecarrusel" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/slider_B.png);"></div>
+        	<div class="imgdecarrusel" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/slider_C.png);"></div>
+        	<div class="imgdecarrusel" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/slider_D.png);"></div>
         </div>
         <div class="one-third column add-bottom fondorojo contenidofijo" id="caja1"><img class="estatica" src="<?php echo get_template_directory_uri(); ?>/img/actualizadomicilio.png" alt="Actualiza  tu domicilio"></div>
         <div class="one-third column add-bottom fondoazul contenidofijo" id="caja2">

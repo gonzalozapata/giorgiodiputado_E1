@@ -104,7 +104,8 @@
 
 /* #Lists
 ================================================== */
-	ul, ol { margin-bottom: 20px; }
+
+/*	ul, ol { margin-bottom: 20px; }
 	ul { list-style: none outside; }
 	ol { list-style: decimal; }
 	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
@@ -117,7 +118,8 @@
 	ol ol li, ol ul li { margin-bottom: 6px; }
 	li { line-height: 18px; margin-bottom: 12px; }
 	ul.large li { line-height: 21px; }
-	li p { line-height: 21px; }
+	li p { line-height: 21px; } */
+
 
 /* #Images
 ================================================== */
