@@ -18,14 +18,22 @@
 ================================================== */
 
 
-#slider {
+.dalevuelta {
 	height:400px;
 	background-color:#85BAE2;
 }
 
+#slider { position:relative !important; }
+
+#slider #ant { position:absolute; top:40%; left:10px; z-index:700; }
+#slider #sig { position:absolute; top:40%; right:10px; z-index:701; }
+
+
 #caja1, #caja2, #caja3 {
 	height:auto;
 }
+
+.todoelalto { display: block; width: 100%; height: 100%; }
 
 .contenidofijo { text-align:center !important; }
 
@@ -36,7 +44,9 @@ img.estatica { width:100%; max-width:300px !important; }
 .fondoverde { background-color:#AEFFD6; }
 .fondoazul { background-color:#85BAD8; }
 .fondogris { background-color:#CCC; }
-.capatransparente { background-color:rgba(32,32,32,0.2); width:100%; height:100%; }
+.inthesky { background-image:url(../../img/diamantes.png); }
+.capatransparente { background-color:rgba(32,32,32,0.4); width:100%; height:100%; transition-property:background-color; transition-timing-function:ease-in-out; transition-duration:0.5s; }
+.capatransparente:hover { background-color:rgba(32,32,32,0.2); }
 
 .imgdecarrusel { background-position:center; background-size:cover; width:100%; height:100%; }
 
@@ -47,6 +57,7 @@ img.linkB { position:absolute; bottom:0px; right:10px; }
 .titular { position:absolute; top:80px; left:5%; width:90%; color:#fff; text-transform:uppercase; font-weight:bold; }
 .titularagenda { position:absolute; top:60px; left:5%; width:90%; text-transform:uppercase; font-weight:bold; }
 .numerogigante { font-size:80px; font-weight:bold; text-align:center; }
+.menudeabajo { margin-top:20px; }
 
 /* #Page Styles
 ================================================== */
@@ -59,24 +70,23 @@ img.linkB { position:absolute; bottom:0px; right:10px; }
 
 
 
-.container nav { margin-top:10px; }
-
-
-nav ul, nav ul li { margin:0; }
-nav ul li { displuay:inline; float:left; position:relative; }
-nav ul li a { display:inline-block; line-height: 30px; color:#222; background-color:#FFF; text-transform:uppercase; padding:0 10px; }
-nav ul li a:hover { background-color:#CCC; }
-nav ul ul.sub-menu { position:absolute; z-index:999; width:200px; height:0px; overflow:hidden; }
-nav ul li:hover ul { height:auto; overflow:vislble; }
-nav ul ul li { float:none; display:list-item; }
-
-nav ul ul li a { display:block; line-height:30px; }
 
 /* #Media Queries
 ================================================== */
 
+	@media only screen and (min-width: 960px) {
+		
+		body { padding-top:60px !important;
+		}
+	}
+
+
 	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+	@media only screen and (max-width: 959px) {
+		
+		body { padding-top:0px !important;
+		}
+	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {}
@@ -84,11 +94,11 @@ nav ul ul li a { display:block; line-height:30px; }
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
 		
-		#slider {
+		.dalevuelta {
 		height:300px;
 		background-color:#FCFF9B;
 		}
-
+		
 		}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -97,7 +107,7 @@ nav ul ul li a { display:block; line-height:30px; }
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 		
-		#slider {
+		.dalevuelta {
 		height:200px;
 		background-color:#E89AB2;
 		}

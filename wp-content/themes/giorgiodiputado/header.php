@@ -19,9 +19,11 @@
 		
 	<!-- CSS + jQuery + JavaScript -->
     
+     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap/bootstrap.css">
+     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap/bootstrap-responsive.css">
+    
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/skeleton/skeleton.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/skeleton/layout.css">
-
     
 	<?php wp_head(); ?>
 	<script>
@@ -56,7 +58,7 @@ if ( is_home() ) {
     <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-    $('.carrusel').cycle({
+    $('.dalevuelta').cycle({
 		fx: 'scrollHorz', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
 		next:   '#sig', 
     	prev:   '#ant',
@@ -80,11 +82,35 @@ $(document).ready(function() {
     
          
 <div class="container">
-        <div class="two columns offset-by-one"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logoGJ.png" alt="Giorgio Jackson" width="140" height="47"></a></div>
-        <div class="two-thirds column add-bottom" id="menu">
-				<nav>
-					<?php html5blank_nav(); ?>
-				</nav>
-        </div>
+<div class="twelve columns">
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
 
-		<!-- /Header -->
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+       </a>
+  
+        <!-- Be sure to leave the brand out there if you want it shown -->
+		<a href="<?php echo home_url(); ?>" class="brand"><img src="<?php echo get_template_directory_uri(); ?>/img/logoGJnuevo.png" alt="Giorgio Jackson" width="180" height="60" style="float:left;"></a>
+   
+         <!-- Everything you want hidden at 940px or less, place within here -->
+         <div class="nav-collapse collapse">
+         <!-- .nav, .navbar-search, .navbar-form, etc -->
+			<nav class="nav">
+				<?php html5blank_nav(); ?>
+            </nav>
+         </div>
+
+
+            
+		</div>
+	</div>
+</div>
+
+</div>
+
+<!-- /Header -->

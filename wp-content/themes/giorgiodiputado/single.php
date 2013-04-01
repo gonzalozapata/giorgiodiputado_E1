@@ -1,5 +1,8 @@
 <?php get_header(); ?>
-	
+
+	</div>
+	<div class="fondogris inthesky">
+    <div class="container">
 	<!-- Section -->
 	<section class="two-thirds column">
 	
@@ -58,5 +61,7 @@
 	<!-- /Section -->
     	
 <?php get_sidebar(); ?>
+
+</div>
 
 <?php get_footer(); ?>
